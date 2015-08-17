@@ -25,8 +25,8 @@
         <module name="jsap-porting" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="jsap-porting" target="1.6" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="jsap-porting" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

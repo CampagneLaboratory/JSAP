@@ -6,14 +6,16 @@
 
 package com.martiansoftware.jsap.stringparsers;
 
-import junit.framework.TestCase;
-import java.awt.Color;
 import com.martiansoftware.jsap.JSAPException;
+import junit.framework.TestCase;
+
+import java.awt.*;
+
 
 /**
  * A series of tests for the ColorStringParser
  * @author <a href="http://www.martiansoftware.com/contact.html">Marty Lamb</a>
- * @see com.martiansoftware.jsap.stringparsers.ColorStringParser
+ * @see ColorStringParser
  */
 public class TestColorStringParser extends TestCase {
 
