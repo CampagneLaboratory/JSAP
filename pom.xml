@@ -8,13 +8,18 @@
     <version>3.0.0</version>
     <packaging>jar</packaging>
     <description>A porting of JSAP to java 1.7+.</description>
-    <url>http://www.martiansoftware.com/jsap</url>
     <scm>
         <connection>scm:git@github.com:CampagneLaboratory/JSAP.git</connection>
         <developerConnection>scm:git:git@github.com:CampagneLaboratory/JSAP.git</developerConnection>
         <url>git@github.com:CampagneLaboratory/JSAP.git</url>
         <tag>HEAD</tag>
     </scm>
+    <name>Java Simple Argument Parser</name>
+    <url>http://www.martiansoftware.com/jsap</url>
+    <organization>
+        <name>Martian Software, Inc.</name>
+        <url>http://www.martiansoftware.com</url>
+    </organization>
     <developers>
         <developer>
             <id>Marty</id>
@@ -27,6 +32,9 @@
             </roles>
         </developer>
     </developers>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
     <dependencies>
         <dependency>
