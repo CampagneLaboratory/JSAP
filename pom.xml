@@ -3,13 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.martiansoftware</groupId>
+    <groupId>org.campagnelab.ext</groupId>
     <artifactId>jsap</artifactId>
     <version>3.0.0</version>
     <packaging>jar</packaging>
-    <description>A porting of JSAP to java 7 and higher.</description>
+    <description>A porting of JSAP to java 1.7+.</description>
     <url>http://www.martiansoftware.com/jsap</url>
-
+    <scm>
+        <connection>scm:git@github.com:CampagneLaboratory/JSAP.git</connection>
+        <developerConnection>scm:git:git@github.com:CampagneLaboratory/JSAP.git</developerConnection>
+        <url>git@github.com:CampagneLaboratory/JSAP.git</url>
+        <tag>HEAD</tag>
+    </scm>
     <developers>
         <developer>
             <id>Marty</id>
