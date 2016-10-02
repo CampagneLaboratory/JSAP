@@ -20,6 +20,13 @@
         <name>Martian Software, Inc.</name>
         <url>http://www.martiansoftware.com</url>
     </organization>
+    <licenses>
+        <license>
+            <name>Lesser GNU Public License</name>
+            <url>http://www.fsf.org/licenses/licenses.html#LGPL</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
     <developers>
         <developer>
             <id>Marty</id>
